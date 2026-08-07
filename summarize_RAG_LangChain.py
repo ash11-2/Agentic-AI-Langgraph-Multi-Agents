@@ -52,7 +52,7 @@ docsearch = Chroma.from_documents(texts, embeddings)  # store the embedding in d
 print('document ingested')
 
 #LLM Model
-model_id = 'ibm/granite-3-3-8b-instruct'
+model_id = ''
 
 #define parameters for the model
 parameters = {
